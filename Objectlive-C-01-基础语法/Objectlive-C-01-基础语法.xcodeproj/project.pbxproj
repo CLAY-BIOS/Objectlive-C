@@ -10,6 +10,7 @@
 		AB94147C2567052B0014AB39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB94147B2567052B0014AB39 /* main.m */; };
 		AB941487256710E10014AB39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB941486256710E10014AB39 /* main.m */; };
 		ABAECA2925630D3C0089D6DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAECA2825630D3C0089D6DF /* main.m */; };
+		ABEB3F01256861CB005E784F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEB3F00256861CB005E784F /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ABEB3EFC256861CB005E784F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,8 @@
 		AB941486256710E10014AB39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABAECA2525630D3C0089D6DF /* Objectlive-C-01-基础语法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objectlive-C-01-基础语法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAECA2825630D3C0089D6DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABEB3EFE256861CB005E784F /* Objectlive-C-04-OC类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objectlive-C-04-OC类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEB3F00256861CB005E784F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +79,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ABAECA2225630D3C0089D6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB3EFB256861CB005E784F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,6 +117,7 @@
 				ABAECA2725630D3C0089D6DF /* Objectlive-C-01-基础语法 */,
 				AB94147A2567052B0014AB39 /* Objectlive-C-02-OC与C的对比 */,
 				AB941485256710E10014AB39 /* Objectlive-C-03-OC面向过程和面向对象 */,
+				ABEB3EFF256861CB005E784F /* Objectlive-C-04-OC类和对象 */,
 				ABAECA2625630D3C0089D6DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +128,7 @@
 				ABAECA2525630D3C0089D6DF /* Objectlive-C-01-基础语法 */,
 				AB9414792567052B0014AB39 /* Objectlive-C-02-OC与C的对比 */,
 				AB941484256710E10014AB39 /* Objectlive-C-03-OC面向过程和面向对象 */,
+				ABEB3EFE256861CB005E784F /* Objectlive-C-04-OC类和对象 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,14 @@
 				ABAECA2825630D3C0089D6DF /* main.m */,
 			);
 			path = "Objectlive-C-01-基础语法";
+			sourceTree = "<group>";
+		};
+		ABEB3EFF256861CB005E784F /* Objectlive-C-04-OC类和对象 */ = {
+			isa = PBXGroup;
+			children = (
+				ABEB3F00256861CB005E784F /* main.m */,
+			);
+			path = "Objectlive-C-04-OC类和对象";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +203,23 @@
 			productReference = ABAECA2525630D3C0089D6DF /* Objectlive-C-01-基础语法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		ABEB3EFD256861CB005E784F /* Objectlive-C-04-OC类和对象 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEB3F04256861CB005E784F /* Build configuration list for PBXNativeTarget "Objectlive-C-04-OC类和对象" */;
+			buildPhases = (
+				ABEB3EFA256861CB005E784F /* Sources */,
+				ABEB3EFB256861CB005E784F /* Frameworks */,
+				ABEB3EFC256861CB005E784F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Objectlive-C-04-OC类和对象";
+			productName = "Objectlive-C-04-OC类和对象";
+			productReference = ABEB3EFE256861CB005E784F /* Objectlive-C-04-OC类和对象 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,6 +235,9 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					ABAECA2425630D3C0089D6DF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					ABEB3EFD256861CB005E784F = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -209,6 +258,7 @@
 				ABAECA2425630D3C0089D6DF /* Objectlive-C-01-基础语法 */,
 				AB9414782567052B0014AB39 /* Objectlive-C-02-OC与C的对比 */,
 				AB941483256710E10014AB39 /* Objectlive-C-03-OC面向过程和面向对象 */,
+				ABEB3EFD256861CB005E784F /* Objectlive-C-04-OC类和对象 */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABAECA2925630D3C0089D6DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEB3EFA256861CB005E784F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEB3F01256861CB005E784F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +462,24 @@
 			};
 			name = Release;
 		};
+		ABEB3F02256861CB005E784F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABEB3F03256861CB005E784F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,6 +515,15 @@
 			buildConfigurations = (
 				ABAECA2D25630D3C0089D6DF /* Debug */,
 				ABAECA2E25630D3C0089D6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEB3F04256861CB005E784F /* Build configuration list for PBXNativeTarget "Objectlive-C-04-OC类和对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEB3F02256861CB005E784F /* Debug */,
+				ABEB3F03256861CB005E784F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
