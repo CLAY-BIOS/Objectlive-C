@@ -32,7 +32,7 @@
 
 - 无线网卡：DW1820A   Intel 7265AC   Intel AX200
 ```
-## Installation
+## 安装
 
 <details>  
 <summary><strong>如何安装macOS </strong></summary>
