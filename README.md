@@ -43,6 +43,8 @@
 1. 根据下表更改您的BIOS设置 
 1. 从USB启动安装程序（按“ F12”选择启动盘），然后[开始安装过程](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
 
+</details>
+
 ## BIOS (1.37)
 -  Security -> Security Chip`: **Disabled**;
 -  Memory Protection -> Execution Prevention`: **Enabled**;
