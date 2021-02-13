@@ -91,6 +91,7 @@
 </br>
 
 - [ ] VGA
+- [ ] Sidecar
 - [ ] 指纹
 - [ ] 扩展坞 DisplayPort
 - [ ] 扩展坞 DVI
