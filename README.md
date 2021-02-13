@@ -43,9 +43,7 @@
 1. 根据下表更改您的BIOS设置 
 1. 从USB启动安装程序（按“ F12”选择启动盘），然后[开始安装过程](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
 
-</details>
-
-## BIOS (1.37)
+**BIOS (1.37):**
 -  Security -> Security Chip`: **Disabled**;
 -  Memory Protection -> Execution Prevention`: **Enabled**;
 -  Virtualization -> Intel Virtualization Technology`: **Enabled**;
@@ -55,6 +53,8 @@
 -  Secure Boot -> Secure Boot`: **Disabled**;
 -  UEFI/Legacy Boot`: **UEFI Only**;
 -  CSM Support`: **Yes**.
+
+</details>
 
 # Intel Wi-Fi
 - 驱动文件以添加到项目中，根据自己的系统版本勾选，默认为Big Sur。
@@ -82,8 +82,6 @@
 （睡眠过程中再次按下睡眠快捷键即可终止睡眠。）
 （连接外部显示器时，按睡眠按钮后，工作屏幕变为外部显示器（内部屏幕关闭）；再按一次睡眠按钮，内部和外部显示器恢复正常。）
 - PrtSc 映射到 F13：可在系统偏好设置-->键盘-->快捷键将它设置为截图。
--------------------------------------------------------------------------------------------------------------
-![demo](./picture/demo.gif)
 
 ## 有效
 - CPU
@@ -115,7 +113,7 @@
 
 > ## 学分
 
-- [@tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) 新一代电池补丁。
+- [@benbender](https://github.com/benbender/x1c6-hackintosh/blob/experimental/EFI/OC/dsl/SSDT-BATX.dsl) 新一代电池补丁。
 - [@zhen-zen](https://github.com/zhen-zen) for YogaSMC.
 - [daliansky/OC-little](https://github.com/daliansky/OC-little) 各种ACPI热补丁样本。 
 - [@xzhih](https://github.com/xzhih) 一键开启Hi-DPI。 
