@@ -3,7 +3,7 @@
 
 [![macOS](https://img.shields.io/badge/macOS-11.2.1-blue)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-green)](https://github.com/acidanthera/OpenCorePkg)
-[![ThinkPad](https://img.shields.io/badge/ThinkPad-T450s.X250.T450-lightgrey)](https://think.lenovo.com.cn/index.html)
+[![ThinkPad](https://img.shields.io/badge/ThinkPad-T450s.X250.T450-orange)](https://think.lenovo.com.cn/index.html)
 
 **免责声明:**
 
