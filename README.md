@@ -7,10 +7,10 @@
 
 **免责声明:**
 在开始之前，请阅读整个自述文件。
-我对您可能造成的任何损失不承担任何责任。
+我对可能造成的任何损失不承担任何责任。
 如果您发现错误或有任何改进（无论是在配置中还是在文档中），请考虑打开问题或请求请求。
-如果您发现我的工作有用，请考虑通过PayPal捐款。
-对我来说意义重大。 
+如果您发现我的工作有用，可以点击右上角的⭐️Star。
+这对我来说意义重大。 
 
 ## 简介
 - 这是一个完整的ThinkPad T450s macOS + DW1820a Hackintosh 配置。
@@ -101,7 +101,6 @@
 <details>  
 <summary><strong>Intel Wi-Fi</strong></summary>
 </br>
-
 - AirportItlwm.kext以添加到项目中，根据自己的系统版本勾选，默认为Big Sur。
 - 某些功能不可用。
 - 不讨论Intel Wi-Fi的问题，因为驱动程序不稳定。
@@ -168,12 +167,12 @@
 > # 学分
 
 - [@benbender](https://github.com/benbender/x1c6-hackintosh/blob/experimental/EFI/OC/dsl/SSDT-BATX.dsl) 新一代电池补丁。
-- [@zhen-zen](https://github.com/zhen-zen) for YogaSMC.
+- [@zhen-zen](https://github.com/zhen-zen) for YogaSMC。
 - [daliansky/OC-little](https://github.com/daliansky/OC-little) 各种ACPI热补丁样本。 
 - [@xzhih](https://github.com/xzhih) 一键开启Hi-DPI。 
-- [@cholonam](https://github.com/cholonam/Sinetek-rtsx) 读卡器修复. https://github.com/cholonam/Sinetek-rtsx/pull/18
+- [@cholonam](https://github.com/cholonam/Sinetek-rtsx) 读卡器修复。 https://github.com/cholonam/Sinetek-rtsx/pull/18
 - [@MSzturc](https://github.com/MSzturc/ThinkpadAssistant) ThinkPad助手。
-- [@zxystd](https://github.com/OpenIntelWireless/itlwm) Intel Wi-Fi Drivers for macOS.
+- [@zxystd](https://github.com/OpenIntelWireless/itlwm) Intel Wi-Fi Drivers for macOS。
 
 非常感谢 [Acidanthera](https://github.com/acidanthera) 团队，如果没有他们的工作，这将是不可能的。
 
