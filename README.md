@@ -83,7 +83,7 @@
 - [x] SD卡读卡器 
 - [x] 扩展坞 USB
 - [x] 扩展坞 以太网
-- [x] 扩展坞 音频 （需要将声卡 layout-id 设置为 55 ）
+- [x] 扩展坞 耳机插孔 （需要将声卡 layout-id 设置为 55 ）
 
 </details>
 
@@ -99,19 +99,37 @@
 
 </details>
 
-# Intel Wi-Fi
-- 驱动文件以添加到项目中，根据自己的系统版本勾选，默认为Big Sur。
+<details>  
+<summary><strong>Intel Wi-Fi</strong></summary>
+</br>
+
+- AirportItlwm.kext以添加到项目中，根据自己的系统版本勾选，默认为Big Sur。
 - 某些功能不可用。
 - 不讨论Intel Wi-Fi的问题，因为驱动程序不稳定。
 - 参考:  https://github.com/OpenIntelWireless/itlwm
 ![AirportItlwm](./picture/AirportItlwm.png)
 
-# 扩展坞
+- ### 还有另外一种Intel Wi-Fi驱动：
+- AirPortOpenBSD.kext
+- 感兴趣的朋友可以自己尝试。
+- 参考:  https://github.com/a565109863/AirPortOpenBSD
+
+</details>
+
+<details>  
+<summary><strong>关于扩展坞</strong></summary>
+</br>
+
 - 使用扩展坞会导致睡眠出现问题，解决方法是在 config.plist->ACPI 中勾选 SSDT-IGBE 补丁。
 - 使用 SSDT-IGBE 补丁无法使用翻盖模式。
 
-# ThinkPad助手(ThinkpadAssistant)
-- 可让您在Thinkpad T450s X250 T450笔记本电脑上使用所有功能键。
+</details>
+
+<details>  
+<summary><strong>ThinkPad助手(ThinkpadAssistant)</strong></summary>
+</br>
+
+- 可让你在Thinkpad T450s X250 T450笔记本电脑上使用所有功能键。
 - 复制ThinkpadAssistant到应用程序文件夹。
 - 启动ThinkpadAssistant，并在菜单栏中勾选“登录时启动”。
 - F4：麦克风静音/取消静音（带有状态LED指示）。
@@ -125,6 +143,18 @@
 （睡眠过程中再次按下睡眠快捷键即可终止睡眠。）
 （连接外部显示器时，按睡眠按钮后，工作屏幕变为外部显示器（内部屏幕关闭）；再按一次睡眠按钮，内部和外部显示器恢复正常。）
 - PrtSc 映射到 F13：可在系统偏好设置-->键盘-->快捷键将它设置为截图。
+
+</details>
+
+<details>  
+<summary><strong>启用风扇和LED控制</strong></summary>
+</br>
+
+1. 下载并安装 [YogaSMC-App-Release.dmg](https://github.com/zhen-zen/YogaSMC/releases) 
+1. 打开应用程序
+1. 勾选“登录后启动”选项
+
+</details>
 
 > ## 学分
 
