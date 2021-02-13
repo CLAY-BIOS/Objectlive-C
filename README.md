@@ -20,7 +20,6 @@
 - 支持 Catalina。
 - 支持 Mojave。
 - 支持 ThinkPad X250 ThinkPad T450 ThinkPad T450s。
-- 一键开启Hi-DPI  参考:   https://github.com/xzhih/one-key-hidpi
 
 ## 硬件信息
 ```  
@@ -156,7 +155,17 @@
 
 </details>
 
-> ## 学分
+<details>  
+<summary><strong>一键开启Hi-DPI</strong></summary>
+</br>
+
+1. 参考:   https://github.com/xzhih/one-key-hidpi
+
+</details>
+
+
+
+> # 学分
 
 - [@benbender](https://github.com/benbender/x1c6-hackintosh/blob/experimental/EFI/OC/dsl/SSDT-BATX.dsl) 新一代电池补丁。
 - [@zhen-zen](https://github.com/zhen-zen) for YogaSMC.
