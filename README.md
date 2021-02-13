@@ -5,6 +5,7 @@
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-green)](https://github.com/acidanthera/OpenCorePkg)
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-T450s.X250.T450-orange)](https://think.lenovo.com.cn/index.html)
 
+
 **免责声明:**
 
 在开始之前，请阅读整个自述文件。
