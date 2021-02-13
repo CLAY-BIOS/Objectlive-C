@@ -6,11 +6,13 @@
 [![BIOS](https://img.shields.io/badge/BIOS-1.37-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t450s/downloads/driver-list/component?name=BIOS%2FUEFI)
 
 **免责声明:**
+
 在开始之前，请阅读整个自述文件。
 我对可能造成的任何损失不承担任何责任。
 如果您发现错误或有任何改进（无论是在配置中还是在文档中），请考虑打开问题或请求请求。
 如果您发现我的工作有用，可以点击右上角的⭐️Star。
 这对我来说意义重大。 
+
 
 ## 简介
 - 这是一个完整的ThinkPad T450s macOS + DW1820a Hackintosh 配置。
