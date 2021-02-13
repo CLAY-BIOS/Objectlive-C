@@ -1,10 +1,9 @@
 # ThinkPad T450s X250 T450 Big Sur OpenCore 0.6.6
-<img align="right" src="/picture/Thismachine.png" alt="Lenovo Thinkpad T450s macOS Hackintosh OpenCore" width="425">
+<img align="right" src="/picture/Thismachine.png" alt="Lenovo Thinkpad T450s macOS Hackintosh OpenCore" width="420">
 
 [![macOS](https://img.shields.io/badge/macOS-11.2.1-blue)](https://developer.apple.com/documentation/macos-release-notes)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.6-green)](https://github.com/acidanthera/OpenCorePkg)
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-T450s.X250.T450-orange)](https://think.lenovo.com.cn/index.html)
-
 
 **免责声明:**
 
@@ -13,7 +12,6 @@
 如果您发现错误或有任何改进（无论是在配置中还是在文档中），请考虑打开问题或请求请求。
 如果您发现我的工作有用，可以考虑点击右上角的⭐️Star。
 这对我来说意义重大。 
-
 
 
 ## 简介
