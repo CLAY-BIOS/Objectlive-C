@@ -101,6 +101,7 @@
 <details>  
 <summary><strong>Intel Wi-Fi</strong></summary>
 </br>
+
 - AirportItlwm.kext以添加到项目中，根据自己的系统版本勾选，默认为Big Sur。
 - 某些功能不可用。
 - 不讨论Intel Wi-Fi的问题，因为驱动程序不稳定。
