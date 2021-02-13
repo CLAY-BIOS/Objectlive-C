@@ -32,7 +32,7 @@
 
 - 无线网卡：DW1820A   Intel 7265AC   Intel AX200
 ```
-## 安装
+## 安装和BIOS设置
 
 <details>  
 <summary><strong>如何安装macOS </strong></summary>
@@ -40,8 +40,13 @@
 
 1. [创建安装媒体](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#making-the-installer)
 1. 下载[最新的EFI文件](https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-Big-Sur-OpenCore/releases) 并将其复制到ESP分区中
-1. 根据下表更改您的BIOS设置 
 1. 从USB启动安装程序（按“ F12”选择启动盘），然后[开始安装过程](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#booting-the-opencore-usb)
+
+<details>  
+
+<details>  
+<summary><strong>BIOS设置 </strong></summary>
+</br>
 
 **BIOS (1.37):**
 -  Security -> Security Chip`: **Disabled**;
@@ -56,9 +61,47 @@
 
 </details>
 
+## 状态
+<details>  
+<summary><strong>什么有效 ✅</strong></summary>
+</br>
+ 
+- [x] CPU电源管理
+- [x] Intel HD 5500 Graphics 
+- [x] 完整的USB
+- [x] 摄像头
+- [x] 休眠/唤醒/关机/重启
+- [x] 英特尔千兆以太网  （连接扩展坞后无法使用笔记本上的以太网接口）
+- [x] Wi-Fi，蓝牙，空投投送，切换，连续性  （使用intel- Wi-Fi将导致某些功能不可用）
+- [x] iMessage, FaceTime, App Store, iTunes Store
+- [x] 扬声器和耳机插孔
+- [x] 电池和完整的电池信息  
+- [x] 键盘地图和热键 [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant) 
+- [x] 触控板、小红点和物理按钮
+- [x] 触摸屏 （带有多点触控和触屏手势）
+- [x] mini DisplayPort
+- [x] SD卡读卡器 
+- [x] 扩展坞 USB
+- [x] 扩展坞 以太网
+- [x] 扩展坞 音频 （需要将声卡 layout-id 设置为 55 ）
+
+</details>
+
+<details>  
+<summary><strong>什么不起作用 ⚠️</strong></summary>
+</br>
+
+- [ ] VGA
+- [ ] 指纹
+- [ ] 扩展坞 DisplayPort
+- [ ] 扩展坞 DVI
+- [ ] 扩展坞 HDMI
+
+</details>
+
 # Intel Wi-Fi
 - 驱动文件以添加到项目中，根据自己的系统版本勾选，默认为Big Sur。
-- 隔空投送不可用。
+- 某些功能不可用。
 - 不讨论Intel Wi-Fi的问题，因为驱动程序不稳定。
 - 参考:  https://github.com/OpenIntelWireless/itlwm
 ![AirportItlwm](./picture/AirportItlwm.png)
@@ -82,34 +125,6 @@
 （睡眠过程中再次按下睡眠快捷键即可终止睡眠。）
 （连接外部显示器时，按睡眠按钮后，工作屏幕变为外部显示器（内部屏幕关闭）；再按一次睡眠按钮，内部和外部显示器恢复正常。）
 - PrtSc 映射到 F13：可在系统偏好设置-->键盘-->快捷键将它设置为截图。
-
-## 有效
-- CPU
-- 睡眠/唤醒
-- Wifi
-- 蓝牙 
-- Handoff, Continuity, AirDrop
-- iMessage, FaceTime, App Store, iTunes Store
-- 以太网卡  （连接扩展坞后无法使用笔记本上的以太网接口）
-- 声卡
-- USB
-- 电池和完整的电池信息   
-- 触摸屏 
-- 触摸板 
-- 小红点
-- miniDP
-- SD卡读卡器
-- 扩展坞 USB
-- 扩展坞 以太网
-- 扩展坞 音频 （需要将声卡 layout-id 设置为 55 ）
-
-## 无效
-- VGA
-- 指纹
-- 扩展坞 DisplayPort
-- 扩展坞 VGA
-- 扩展坞 DVI
-- 扩展坞 HDMI
 
 > ## 学分
 
