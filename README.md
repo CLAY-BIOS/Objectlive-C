@@ -14,6 +14,7 @@
 这对我来说意义重大。 
 
 
+
 ## 简介
 - 这是一个完整的ThinkPad T450s macOS + DW1820a Hackintosh 配置。
 - 声卡默认 layout-id = 32，耳机杂音请使用声卡修复脚本(ALCPlugFix)。 
