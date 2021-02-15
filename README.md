@@ -7,7 +7,7 @@
 
 **免责声明:**
 
-作者：[@CLAY-BIOS](https://github.com/CLAY-BIOS)  
+### 作者：[@CLAY-BIOS](https://github.com/CLAY-BIOS)  
 在开始之前，请阅读整个自述文件。
 我对可能造成的任何损失不承担任何责任。
 此仓库部分ACPI补丁由本人独立完成，使用和引用请注明出处。
