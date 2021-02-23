@@ -80,13 +80,13 @@
 - [x] 英特尔千兆以太网  （连接扩展坞后无法使用笔记本上的以太网接口）
 - [x] Wi-Fi，蓝牙，空投投送，切换，连续性  （使用intel- Wi-Fi将导致某些功能不可用）
 - [x] iMessage, FaceTime, App Store, iTunes Store
-- [x] 扬声器和耳机插孔
+- [x] 扬声器和耳机插孔  （使用intel- Wi-Fi可能会出现唤醒无声的问题）
 - [x] 电池和完整的电池信息  
 - [x] 键盘地图和热键 [ThinkpadAssistant](https://github.com/MSzturc/ThinkpadAssistant) 
 - [x] 触控板、小红点和物理按钮
 - [x] 触摸屏 （带有多点触控和触屏手势）
 - [x] mini DisplayPort
-- [x] SD卡读卡器 
+- [x] SD卡读卡器    （通过修改[Sinetek-rtsx.kext源代码](https://github.com/cholonam/Sinetek-rtsx/pull/18)修复，为此我学习了一段时间的IOKit.）
 - [x] 扩展坞 USB
 - [x] 扩展坞 以太网
 - [x] 扩展坞 耳机插孔 （需要将声卡 layout-id 设置为 55 ）
@@ -209,8 +209,9 @@
 > # 学分
 
 - [@benbender](https://github.com/benbender/x1c6-hackintosh/blob/experimental/EFI/OC/dsl/SSDT-BATX.dsl) 新一代电池补丁。
+- [@Sniki](https://github.com/Sniki?tab=repositories) SSDT-IGBE补丁。
 - [@zhen-zen](https://github.com/zhen-zen) for YogaSMC。
-- [daliansky/OC-little](https://github.com/daliansky/OC-little) 各种ACPI热补丁样本。 
+- [@daliansky](https://github.com/daliansky/OC-little) 各种ACPI热补丁样本。 
 - [@xzhih](https://github.com/xzhih) 一键开启Hi-DPI。 
 - [@cholonam](https://github.com/cholonam/Sinetek-rtsx) [读卡器修复](https://github.com/cholonam/Sinetek-rtsx/pull/18)
 - [@MSzturc](https://github.com/MSzturc/ThinkpadAssistant) ThinkPad助手。
